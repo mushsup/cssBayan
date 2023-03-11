@@ -1,3 +1,9 @@
-.delete_me {
-  color: blue;
+.bayan {
+    padding: 0;
+    margin: 0 auto;
+    width: 50%;
+    font-family: sans-serif;
+}
+img {
+    max-width: 100%;
 }
