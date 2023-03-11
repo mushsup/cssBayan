@@ -1,9 +1,49 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
 .bayan {
     padding: 0;
     margin: 0 auto;
     width: 50%;
     font-family: sans-serif;
+    max-height: auto;
+}
+.bayan h2{
+    color: blue;
 }
 img {
     max-width: 100%;
+}
+.bayan:hover .bayan-item:hover .bayan-item-content{
+    max-height: 30em;
+    transition: max-height 0.6s;
+    
+}
+
+.bayan-item-content,
+.bayan:hover .bayan-item-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s;
+}
+.bayan:hover h2{
+    color: black;
+}
+.bayan:hover{
+   cursor:pointer;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+      display:none;
+  align-items: center;
+  justify-content: center;
+    width: 2em;
+    filter: invert(7%) sepia(97%) saturate(6915%) hue-rotate(247deg) brightness(112%) contrast(146%);
+}
+.bayan:hover .icon{
+    filter: none;
+    display: flex;
+}.bayan-item:hover .icon{
+transform: rotate(135deg);
 }
