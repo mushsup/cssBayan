@@ -1,14 +1,6 @@
 html, body {margin: 0; height: 100%; overflow: hidden}
 
 
-
-
-
-
-
-
-
-
 .bayan {
     padding: 0;
     margin: 0 auto;
@@ -63,5 +55,4 @@ transform: rotate(135deg);
     font-weight: 700;
     border-bottom: .03rem solid #5c5c5c;
 }
-
 
