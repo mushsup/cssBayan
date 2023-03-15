@@ -5,7 +5,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     padding: 0;
     margin: 0 auto;
     padding: 3vh;
-    width: 40vh;
+    width: 50vh;
     font-family: sans-serif;
     max-height: auto;
 }
@@ -15,10 +15,11 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 img {
     max-width: 100%;
 }
+@media (hover: hover){
 .bayan:hover .bayan-item:hover .bayan-item-content{
     max-height: 50em;
     transition: max-height 0.6s;
-    
+}
 }
 
 .bayan-item-content,
@@ -56,3 +57,28 @@ transform: rotate(135deg);
     border-bottom: .03rem solid #5c5c5c;
 }
 
+
+
+@media screen and (min-width: 1280px) and (max-width: 1920px) {
+    h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1279px) {
+    h2 {
+    font-size: 1rem;
+  }
+  .bayan {
+    width: 40vh;
+  }
+}
+
+@media screen and (max-width: 599px) {
+    h2 {
+    font-size: 0.7rem;
+  }
+  .bayan {
+    width: 30vh;
+  }
+}
